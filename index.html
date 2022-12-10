@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>World Cup / Qatar</title>
+</head>
+
+<body>
+    <header class="bg-primary">
+        <div class="header-bg">
+            <div class="txt p-5">
+                <h1>كأس</h1>
+                <h1>العالم</h1>
+            </div>
+        </div>
+    </header>
+    <div class="logo">
+        <img src="images/logo.png" alt="" srcset="">
+    </div>
+    <div class="d-flex justify-content-end qat">
+        <img src="images/qatar-word.png" alt="" srcset="">
+    </div>
+
+    <!-- ===== Content Section ===== -->
+    <section class="container mt-5">
+
+        <div class="p-5">
+            <!-- Title -->
+            <div class="row" dir="rtl">
+                <h1><b>المجموعات</b></h1>
+                <hr>
+            </div>
+
+            <!-- Groups -->
+            <div class="row" id="standings">
+
+            </div>
+        </div>
+    </section>
+    <!-- ===== Matches Section ===== -->
+    <section class="container">
+        <!-- Title -->
+        <div class="row m-0" dir="rtl">
+            <h1><b>المباريات</b></h1>
+            <hr>
+        </div>
+
+        <!-- ===== Matches ===== -->
+        <div class="row" id="matches">
+            <!--  Matche col  -->
+            <div class="col-sm-12">
+                <div class="card shadow rounded-pill overflow-hidden">
+                    <div class="card-body p-0">
+                        <div class="row" style="height: 100px;">
+                            <!-- Left Team Col -->
+                            <div
+                                class="r-team col-sm-3 bg-primary d-flex justify-content-center align-content-center ">
+                                <div class="d-flex justify-content-center align-content-center flex-column">
+                                    <div class="flag">
+                                        <img class="rounded-circle"
+                                            src="https://cdn.britannica.com/79/5779-004-DC479508/Flag-Saudi-Arabia.jpg"
+                                            alt="" srcset="" width="40px" height="40px">
+                                    </div>
+                                    <h5 class="m-0"><b>KSA</b></h5>
+                                </div>
+                            </div>
+
+                            <!--  Match Info -->
+                            <div class="col-sm-6 text-center">
+                                <div class="row">
+                                    <div class="col-sm-4 m-auto">
+                                        <h3> - </h3>
+                                    </div>
+                                    <div class="col-sm-4 m-auto">
+                                        <h6>Group (A)</h6>
+                                        <h1>X</h1>
+                                        <h6>18:30</h6>
+                                    </div>
+                                    <div class="col-sm-4 m-auto">
+                                        <h3> - </h3>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <!-- Right Team Col -->
+                            <div
+                                class="l-team col-sm-3 bg-primary d-flex justify-content-center align-content-center ">
+                                <div class="d-flex justify-content-center align-content-center flex-column">
+                                    <div class="flag">
+                                        <img class="rounded-circle"
+                                            src="https://cdn.britannica.com/79/5779-004-DC479508/Flag-Saudi-Arabia.jpg"
+                                            alt="" srcset="" width="40px" height="40px">
+                                    </div>
+                                    <h5 class="m-0"><b>KSA</b></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- =========== SCRIPTS ======================   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
